@@ -1,0 +1,8 @@
+:root{--bg:#fbfaf7;--fg:#1d1b19;--mute:#6b665f;--line:#e4e0d8;--a:#ffcc00;--b:#3fa9f5}
+@media (prefers-color-scheme:dark){:root{--bg:#141312;--fg:#eeeae4;--mute:#a49e96;--line:#2f2c29}}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.75 "Noto Sans KR",system-ui,sans-serif;padding:32px max(16px,env(safe-area-inset-left))}
+main{max-width:720px;margin:0 auto}
+h1{font-size:30px;margin:0 0 4px}h2{font-size:19px;margin:28px 0 6px}
+.bar{height:8px;background:linear-gradient(90deg,var(--a) 50%,var(--b) 50%);border-radius:4px;margin:12px 0 24px;max-width:160px}
+a{color:inherit}p,li{color:var(--fg)}.m{color:var(--mute);font-size:14px}
+nav{display:flex;gap:16px;margin-top:36px;padding-top:16px;border-top:1px solid var(--line);font-size:14px}
